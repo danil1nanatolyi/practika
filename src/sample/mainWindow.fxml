@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMainWindow">
+    <children>
+        <ScrollPane prefHeight="400.0" prefWidth="562.0">
+            <content>
+                <TableView fx:id="table" prefHeight="400.0" prefWidth="540.0">
+                    <columns>
+                        <TableColumn fx:id="dayColumn" prefWidth="75.0" text="День" />
+                        <TableColumn fx:id="monthColumn" prefWidth="75.0" text="Месяц" />
+                        <TableColumn fx:id="precipitationColumn" prefWidth="87.0" text="Осадки" />
+                        <TableColumn fx:id="temperatureColumn" prefWidth="87.0" text="Температура" />
+                        <TableColumn fx:id="pressureColumn" prefWidth="114.0" text="Давление" />
+                        <TableColumn fx:id="humidityColumn" prefWidth="75.0" text="Влажность" />
+                    </columns>
+                </TableView>
+            </content>
+        </ScrollPane>
+    </children>
+</VBox>
